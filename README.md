@@ -1,0 +1,2 @@
+# MongoDB_backend_CRUD
+This is an example of back end CRUD functionality using async functions to demonstrate all functions step by step. This uses MongoDB and NodeJS and contains no from end forms. 3 Collections exist on MongoDB, one for customers, one for phones, and one for purchases. Customers purchase phones from the phone shop and a record is kept of their purchases. A user must only run the NodeJS file in their chosen IDE and the log will describe what is happening step by step. Full CRUD is carried out on each collection.
