@@ -1,0 +1,276 @@
+USERS-
+
+[{
+  "_id": {
+    "$oid": "607c5d9563f7de95c94b74be"
+  },
+  "Title": "Mr.",
+  "FName": "Emmett",
+  "LName": "Mulroy",
+  "Mobile": "0834444333",
+  "Email": "emulroy@hotmail.com",
+  "HomeAddress": {
+    "Line1": "123 Fake Street",
+    "Line2": "Fake Road",
+    "Town": "Fake Town",
+    "County": "Fake County",
+    "Eircode": "FK888888"
+  },
+  "ShippingAddress": {
+    "Line1": "123 Fake Street",
+    "Line2": "Fake Road",
+    "Town": "Fake Town",
+    "County": "Fake County",
+    "Eircode": "FK888888"
+  }
+},{
+  "_id": {
+    "$oid": "607c6948402e67271ccfad10"
+  },
+  "Title": "Mr.",
+  "FName": "Alec",
+  "LName": "Baldwin",
+  "Mobile": "089777777",
+  "Email": "aby@gmail.com",
+  "HomeAddress": {
+    "Line1": "1 Fake Street",
+    "Line2": "Fake Road",
+    "Town": "Fake Town",
+    "County": "Fake County",
+    "Eircode": "FK181818"
+  },
+  "ShippingAddress": {
+    "Line1": "1 Fake Street",
+    "Line2": "Fake Road",
+    "Town": "Fake Town",
+    "County": "Fake County",
+    "Eircode FK181818": ""
+  }
+},{
+  "_id": {
+    "$oid": "607c6a5b8960a234d8870f79"
+  },
+  "Title": "Ms.",
+  "FName": "Marie",
+  "LName": "Murphy",
+  "Mobile": "0877777777",
+  "Email": "mariemurphy@gmail.com",
+  "HomeAddress": {
+    "Line1": "Random House",
+    "Line2": "Random Street",
+    "Town": "Random Town",
+    "County": "Louth",
+    "Eircode": "LH777777"
+  },
+  "ShippingAddress": {
+    "Line1": "Random House",
+    "Line2": "Random Street",
+    "Town": "Random Town",
+    "County": "Louth",
+    "Eircode": "LH777777"
+  }
+},{
+  "_id": {
+    "$oid": "6082ba7a85c0bd873c409c2b"
+  },
+  "Title": "Mr.",
+  "FName": "Tony",
+  "Lname": "Soprano",
+  "Mobile": "0856545654",
+  "Email": "tsoprano@gmail.com",
+  "HomeAddress": {
+    "Line1": "56 Park Street",
+    "Line2": "Parkway Drive",
+    "Town": "New Haven",
+    "County": "Louth",
+    "Eircode": "LH89TY1111"
+  },
+  "ShippingAddress": {
+    "Line1": "56 Park Street",
+    "Line2": "Parkway Drive",
+    "Town": "New Haven",
+    "County": "Louth",
+    "Eircode": "LH89TY1111"
+  }
+},{
+  "_id": {
+    "$oid": "6082bb3185c0bd873c409c2c"
+  },
+  "Title": "Mrs.",
+  "FName": "Samantha",
+  "LName": "Duke",
+  "Mobile": "0874587458",
+  "Email": "sduke@hotmail.com",
+  "HomeAddress": {
+    "Line1": "54 Real Street",
+    "Line2": "Real Road",
+    "Town": "RealTown",
+    "County": "RealCounty",
+    "Eircode": "RL111111"
+  },
+  "ShippingAddress": {
+    "Line1": "54 Real Street",
+    "Line2": "Real Road",
+    "Town": "RealTown",
+    "County": "RealCounty",
+    "Eircode": "RL111111"
+  }
+}]
+
+Phones-
+
+[{
+  "_id": {
+    "$oid": "607c1cb93c127200650ef0dd"
+  },
+  "Manufacturer": "Nokia",
+  "Model": "3330",
+  "Price": "€20"
+},{
+  "_id": {
+    "$oid": "607c37233c127200650ef0df"
+  },
+  "Manufacturer": "Samsung",
+  "Model": "Galaxy A5",
+  "Price": "€120"
+},{
+  "_id": {
+    "$oid": "607c37513c127200650ef0e0"
+  },
+  "Manufacturer": "Apple",
+  "Model": "iPhone 8",
+  "Price": "€200"
+},{
+  "_id": {
+    "$oid": "6082bc0685c0bd873c409c2d"
+  },
+  "Manufacturer": "Huawei",
+  "Model": "P10",
+  "Price": "€100"
+},{
+  "_id": {
+    "$oid": "6082bc2985c0bd873c409c2e"
+  },
+  "Manufacturer": "Samsung",
+  "Model": "Galaxy S10",
+  "Price": "€450"
+}]
+
+Purchases-
+
+[{
+  "_id": {
+    "$oid": "607c656e402e67271ccfad0e"
+  },
+  "Customer": {
+    "ID": {
+      "$oid": "607c5d9563f7de95c94b74be"
+    },
+    "Name": "Mr. Emmett Mulroy",
+    "Address": "123 Fake Street"
+  },
+  "PurchasedItems": [
+    {
+      "Reference": {
+        "$oid": "607c1cb93c127200650ef0dd"
+      },
+      "Manufacturer": "Nokia",
+      "Model": "3330",
+      "Price": "€20"
+    },
+    {
+      "Reference": {
+        "$oid": "607c37233c127200650ef0df"
+      },
+      "Manufacturer": "Samsung",
+      "Model": "Galaxy A5",
+      "Price": "€120"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "60804f08959c980d8809e1ff"
+  },
+  "Customer": {
+    "ID": "607c6948402e67271ccfad10",
+    "Name": "Mr. Alex Baldwin",
+    "Address": "1 Fake Street"
+  },
+  "PurchasedItems": [
+    {
+      "Reference": "607c1cb93c127200650ef0dd",
+      "Manufacturer": "Nokia",
+      "Model": "3330",
+      "Price": "€20"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6082bd6bf73f645194d7519b"
+  },
+  "Customer": {
+    "ID": "6082ba7a85c0bd873c409c2b",
+    "Name": "Mr. Tony Soprano",
+    "Address": "56 Park Street"
+  },
+  "PurchasedItems": [
+    {
+      "Reference": "607c1cb93c127200650ef0dd",
+      "Manufacturer": "Nokia",
+      "Model": "3330",
+      "Price": "€20"
+    },
+    {
+      "Reference": "607c37513c127200650ef0e0",
+      "Manufacturer": "Apple",
+      "Model": "iPhone 8",
+      "Price": "€200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6082be5eee80b25da84216cd"
+  },
+  "Customer": {
+    "ID": "607c6a5b8960a234d8870f79",
+    "Name": "Ms. Marie Murphy",
+    "Address": "Random House"
+  },
+  "PurchasedItems": [
+    {
+      "Reference": "607c1cb93c127200650ef0dd",
+      "Manufacturer": "Nokia",
+      "Model": "3330",
+      "Price": "€20"
+    },
+    {
+      "Reference": "607c37513c127200650ef0e0",
+      "Manufacturer": "Apple",
+      "Model": "iPhone 8",
+      "Price": "€200"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6085a2ffee847d0a68255296"
+  },
+  "Customer": {
+    "ID": "6082bb3185c0bd873c409c2c",
+    "Name": "Mrs. Samantha Duke",
+    "Address": "54 Real Street"
+  },
+  "PurchasedItems": [
+    {
+      "Reference": "607c1cb93c127200650ef0dd",
+      "Manufacturer": "Nokia",
+      "Model": "3330",
+      "Price": "€20"
+    },
+    {
+      "Reference": "607c37513c127200650ef0e0",
+      "Manufacturer": "Apple",
+      "Model": "iPhone 8",
+      "Price": "€200"
+    }
+  ]
+}]
